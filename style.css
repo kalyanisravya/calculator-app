@@ -1,0 +1,148 @@
+body {
+  background: #d7c6f4;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+/* Decorations */
+.receipt {
+  position: absolute;
+  top: -30px;
+  left: 220px;
+  width: 60px;
+  height: 70px;
+  background: rgb(236, 244, 14);
+  transform: rotate(-20deg);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.credit-card {
+  position: absolute;
+  top: 1px;
+  left: -60px;
+  width: 90px;
+  height: 50px;
+  background: #ff6666;
+  border-radius: 10px;
+  transform: rotate(-10deg);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.tick {
+  position: absolute;
+  top: -10px;
+  left: 40px;
+  font-size: 30px;
+  color: #6a44d4;
+}
+.hash1{
+  position: absolute;
+  bottom: -1px;
+  left: px;
+  font-size: 50px;
+  color: #6a44d4;
+}
+
+.percent {
+  position: absolute;
+  bottom:  -30px;
+  right: 30px;
+  font-size: 50px;
+  color: #815ee4;
+}
+
+
+.hash{
+  position: absolute;
+  bottom: 200px;
+  left: -30px;
+  background: gold;
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  font-weight: bold;
+  text-align: center;
+  line-height: 35px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+  color: #ff9900;
+}
+.coin {
+  position: absolute;
+  bottom: 200px;
+  right: -30px;
+  background: gold;
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  font-weight: bold;
+  text-align: center;
+  line-height: 35px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+  color: #ff9900;
+}
+
+
+/* Calculator */
+.calculator {
+  background: #8b6ef1;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  width: 270px;
+  transform: rotate(-5deg);
+}
+
+.display {
+  width: 95%;
+  height: 50px;
+  font-size: 24px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: right;
+  background: #f0f0f0;
+  color: #333;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Color variations */
+.white {
+  background: #ffffff;
+  color: #333;
+}
+
+.yellow {
+  background: #fdd835;
+  color: #333;
+}
+
+.orange {
+  background: #ff9800;
+  color: white;
+  grid-column: span 4;
+}
