@@ -15,7 +15,7 @@ Clean layout and responsive buttons designed to work smoothly on desktop and mob
 - JavaScript
 
 ##  Live Demo
-[Try Calculator Now](#)
+[Try Calculator Now]( https://kalyanisravya.github.io/calculator-app/)
 
 ## 📸 Screenshot
 ![calculator png](https://github.com/user-attachments/assets/604fb424-0ec6-4d3c-b40c-717c67bf25bf)
